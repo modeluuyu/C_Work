@@ -1,1 +1,7 @@
-
+#include <stdio.h>
+int main()
+{
+    printf("Hello World\n");
+    printf("natthaphong sirsod");
+    return 0;
+}//end funtion
