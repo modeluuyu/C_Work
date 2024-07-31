@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main() {
+    char Employees_ID [8] ;
+    int working ;
+    int Salary ;
+    printf(" Input the Employees ID (Max. 8 chars): ") ;
+    scanf("%s" , Employees_ID ) ;
+    printf(" Input the working hrs: ") ;
+    scanf("%d" , &working ) ;
+    printf(" Salary amount/hr: ") ;
+    scanf("%d", &Salary ) ;
+
+    printf(" \n Employees ID =%s " , Employees_ID ) ;
+    printf(" \n Salary amount/m =%d " , working * 30 * Salary ) ;
+    return 0 ;
+}//end main function
